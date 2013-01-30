@@ -8,6 +8,14 @@ body {
   color: #5a5a5a;
 }
 
+.custom-hero-unit {
+  padding: 20px;
+  margin-bottom: 30px;
+  background-color: #eeeeee;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
 
 
 /* CUSTOMIZE THE NAVBAR
@@ -237,3 +245,7 @@ body {
   }
 
 }
+
+
+
+
