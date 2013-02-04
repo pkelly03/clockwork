@@ -7,10 +7,6 @@ var clockworkApp = angular.module('clockworkApp', [])
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
-      .when('/about-us', {
-        templateUrl: 'views/about-us.html',
-        controller: 'About-UsCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
